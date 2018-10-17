@@ -42,7 +42,7 @@ public class BarCodeCapture {
 		
 		System.out.println(result.getText());
 		
-		driver.quit();
+
 		
 	}
 }

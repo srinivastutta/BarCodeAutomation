@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12011" started-at="2018-10-17T13:25:48Z" finished-at="2018-10-17T13:26:00Z">
+  <suite name="Default suite" duration-ms="13436" started-at="2018-10-17T13:36:04Z" finished-at="2018-10-17T13:36:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12011" started-at="2018-10-17T13:25:48Z" finished-at="2018-10-17T13:26:00Z">
+    <test name="Default test" duration-ms="13436" started-at="2018-10-17T13:36:04Z" finished-at="2018-10-17T13:36:17Z">
       <class name="com.qa.barcode.BarCodeCapture">
-        <test-method status="PASS" signature="Test1()[pri:0, instance:com.qa.barcode.BarCodeCapture@6a41eaa2]" name="Test1" duration-ms="11967" started-at="2018-10-17T13:25:48Z" finished-at="2018-10-17T13:26:00Z">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.qa.barcode.BarCodeCapture@ed9d034]" name="Test1" duration-ms="13412" started-at="2018-10-17T13:36:04Z" finished-at="2018-10-17T13:36:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
