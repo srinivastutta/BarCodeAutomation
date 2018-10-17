@@ -10,6 +10,7 @@ import javax.imageio.ImageIO;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.LuminanceSource;
@@ -21,7 +22,8 @@ import com.google.zxing.common.HybridBinarizer;
 
 public class BarCodeCapture {
 
-	public static void main(String[] args) throws IOException, NotFoundException {
+	@Test
+	public void Test1() throws IOException, NotFoundException {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://barcode.tec-it.com/en/MobileAztecUrl?data=Srinivas%20Tutta");
 		driver.manage().window().maximize();
